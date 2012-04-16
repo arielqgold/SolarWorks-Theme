@@ -1,0 +1,395 @@
+/* This file will hold the main styles for your website. */
+
+h2 {
+  color: #1A7825;
+}
+
+body {
+}
+
+.front h1.title, #first-time {
+  display: none;
+}
+
+/* Zones */
+.slide-cover {
+  background: url("../images/slide_cover.png") no-repeat scroll left top transparent;
+  height: 365px;
+  margin-top: -364px;
+  margin-left: -9px;
+}
+
+#zone-preface {
+  border-radius: 0 170px 0 0;
+}
+
+.not-front #zone-preface {
+  padding-top: 12px;
+}
+
+.region-preface-first {
+  min-height: 1px;
+}
+
+#zone-postscript, #zone-user {
+  border-radius: 0 36px;
+}
+
+#zone-postscript, .front #zone-preface, .front #zone-user {
+  padding-top: 30px;
+}
+
+#zone-postscript {
+  padding-bottom: 15px;
+}
+
+.front #zone-user {
+  padding-bottom: 30px;
+}
+
+.front .zone-header-wrapper {
+  height: 365px;
+}
+/*
+.zone-header-wrapper {
+  background: #eee;
+  padding-top: 8px;
+}
+*/
+.zone-preface, .zone-user, .zone-postscript, .zone-footer {
+  background: #e9e9da;
+ /* border-radius: 15px 15px 0 0;*/
+}
+
+.zone-footer {
+  border-radius: 0 0 60px 60px;
+}
+
+.zone-preface-wrapper, .zone-user-wrapper, .zone-postscript-wrapper, .zone-footer-wrapper {
+  margin-top: 8px
+}
+
+
+/*
+.zone-content {
+  background: #E9E9DA;
+  border-radius: 0 170px 0 0;
+  border-top: 1px solid #ccc;
+}
+*/
+body.not-front #zone-content {
+  background: #E9E9DA;
+  border-radius: none;
+  border-top: none;
+  padding-top: 18px;
+}
+
+.front .zone-preface {
+  margin-top: -1px;
+}
+
+#zone-branding {
+  margin-bottom: 20px;
+}
+
+/* Blocks */
+.block-main-menu {
+  padding-top: 46px;
+}
+
+
+/* Links */
+
+ul.nice-menu li {
+  background-color: #FFF;
+  border-top: none;
+  border-right: none;
+}
+
+
+
+ul.nice-menu-down li {
+  border-top: none;
+}
+
+/*
+ul.nice-menu a:link, 
+ul.nice-menu a:visited, 
+.block-main-menu a:link, 
+.block-main-menu a:visited {
+  color: #777;
+  font-size: 14px;
+}
+
+.block-main-menu a:hover {
+  color: #000;
+}
+*/
+.block-main-menu ul.menu ul.menu {
+  /*display: none;*/
+}
+.block-main-menu ul.menu li {
+  margin-left: 28px;
+}
+
+.block-main-menu ul.menu ul.menu li {
+  clear: both;
+  margin-left: 0px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.block-title a:link, .block-title a:visited, .block-main-menu li a.active-trail, .zone-footer .block-main-menu a.active-trail { 
+  color: #1a7825;
+  font-size: 20px;
+}
+
+.block-main-menu ul li.leaf, .block-main-menu ul li.expanded, .block-main-menu ul li.collapsed {
+  list-style-image: none;
+  list-style-type: none;
+  float: left;
+ /* margin-left: 27px;*/
+
+}
+
+.quicktabs-loaded a {
+  background: green;
+  color: #000;
+  padding: 18px;
+  font-size: 15px;  
+}
+
+
+
+#block-views-front-page-slider-block-1 .views-field-title  {
+  margin-top: -20px;
+  margin-left: 30px;
+  color: white;
+  font-weight: normal;
+}
+
+.view-front-page-slider a:link, .view-front-page-slider a:visited {
+  color: white;
+}
+
+
+.slide-text-box {
+  background: url("../images/slide_text_box.png") no-repeat scroll left top transparent;
+  height: 243px;
+  width: 316px;
+  position: absolute;
+  top: 47px;
+  left: 24px;
+}
+
+div.slide-text-box h2 {
+  margin-left: 13px;
+  margin-top: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 259px;
+  color: white;
+}
+
+
+div.slide-text-box  p {
+  margin-left: 2px;
+  font-size: 18px;
+  width: 240px;
+  font-weight: bold;
+  margin-top: 18px;
+  
+}
+
+
+
+.block-6 img {
+  width: 100%;
+}
+
+#get-info-button {
+  background: #050;
+  color: #FFF;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 21px auto;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+}
+
+#get-info-button a {
+  color: #FFF;
+}
+
+#get-info-button a:hover {
+  color: orange;
+}
+
+
+.zone-footer .block-main-menu {
+  width: 960px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  margin-top: 0px;
+}
+
+.zone-footer .block-main-menu a:link, 
+.zone-footer .block-main-menu a:visited {
+  color: #777;
+} 
+
+
+.zone-footer .block-main-menu a.active-trail {
+  color: #1A7825;
+}
+/* Footer Text */
+.block-block-9 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Stay Connected */
+.block-block-4 {
+  margin-top: 18px;
+}
+
+#mc_embed_signup label {
+  font-weight: normal;
+}
+#mce-EMAIL, #mce-FNAME, #mce-LNAME {
+  width: 80%;
+}
+
+label.mce-EMAIL {
+  margin-top: 0;
+}
+
+.view-display-id-block_1 .field-name-field-image img {
+  float: left;
+  margin-right: 18px;
+}
+
+
+.view-id-solar_electric h2 a,
+.view-id-solar_hot_water h2 a {
+  color: #1A7825;
+  font-size: 20px;
+}
+
+.front li.comment_forbidden, .front li.comment-add {
+  display: none;
+}
+
+.node-readmore {
+  float: right;
+}
+
+
+.views-slideshow-pager-field-item {
+  float: left;
+  margin-right: 5px;
+  padding: 3px;
+}
+
+
+.views-slideshow-controls-bottom {
+  position: absolute;
+  top: 191px;
+  left: 108px;
+  z-index: 5;
+  float: left;
+}
+
+.view-front-page-slider .views-content-counter {
+  background: url('/sites/all/themes/sw/images/slider_pager.png');
+  height: 20px;
+  width: 20px;
+  text-indent: -9999px;
+}
+
+.view-front-page-slider .active .views-content-counter, .view-front-page-slider .views-content-counter:hover {
+  background: url('/sites/all/themes/sw/images/slider_pager_active.png');
+  height: 20px;
+  width: 20px;
+  text-indent: -9999px;
+} 
+
+
+.front #zone-preface h2.node-title {
+  margin-top: -10px;
+}
+
+
+.block-menu-block a:link, .block-menu-block a:visited {
+  color: #777;
+}
+
+.block-menu-block a:hover,
+.block-menu-block li a.active-trail {
+  color: #1A7825;
+}
+
+.block-menu-block ul li.collapsed, .block-menu-block ul li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+#cboxContent, #cboxTopCenter, #cboxBottomCenter {
+  width: 604px;
+}
+
+
+.learn-more {
+  position: absolute;
+  top: 160px;
+  left: 214px;
+  width: 75px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+a.learn-more:hover {
+  color: orange;
+}
+
+.views-field-field-image-right img {
+  border: 1px solid #666;
+  padding: 2%;
+  margin-bottom: 30px;
+  background: white;
+}
+
+body.not-front .node-links ul li a, 
+body.not-front .comment-links ul li a {
+  display: inline;
+  float: none;
+  margin: 0;  
+}
+
+body.not-front nav.node-links {
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+#block-delta-blocks-page-title h1 {
+  margin-bottom: 0;
+}
+
+.views-field-field-featured-text {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
